@@ -1,0 +1,105 @@
+/* 文字尺寸 */
+$tpf-font-size-md:24rpx;
+$tpf-font-size-base:28rpx;
+$tpf-font-size-lg:32rpx;
+$tpf-font-size-hg:36rpx;
+$tpf-font-size-mx:48rpx;
+
+/* 文字颜色 */
+$tpf-text-color-red: #ed1c24;
+$tpf-text-color-grey: #333333;
+$tpf-text-color-deep-grey: #666666;
+$tpf-text-color-shallow-grey: #999999;
+$tpf-text-color-deep-sky-blue:#1296db;
+$tpf-text-color-white: #FFFFFF;
+
+/* 背景颜色 */
+$tpf-bg-color-white:#FFFFFF;
+$tpf-bg-color-pink: #FFC0CB;
+$tpf-bg-color-red: #fe023b;
+$tpf-bg-color-yellow: #FFFF00;
+$tpf-bg-color-orange: #FFA500;
+$tpf-bg-color-blue: #0000FF;
+$tpf-bg-color-deep-sky-blue: #1296db;
+$tpf-bg-color-black: #000000;
+$tpf-bg-color-white-smoke: #F5F5F5;
+$tpf-bg-color-mask-white:rgba(255, 255, 255, 0.3);//遮罩颜色
+
+/* 图标尺寸 */
+$tpf-icon-size-mi: 20rpx;
+$tpf-icon-size-sm: 40rpx;
+$tpf-icon-size-md: 50rpx;
+$tpf-icon-size-base: 80rpx;
+$tpf-icon-size-lg: 120rpx;
+$tpf-icon-size-hg: 160rpx;
+$tpf-icon-size-mx: 200rpx;
+
+/* 边框半径 */
+$tpf-border-radius-mi: 8rpx;
+$tpf-border-radius-base: 12rpx;
+$tpf-border-radius-hg: 40rpx;
+$tpf-border-radius-circle:100rpx;
+
+/* 边框颜色 */
+$tpf-border-color-deep-sky-blue: #1296db;
+$tpf-border-color-red: #fe023b;
+$tpf-border-color-grey: #333333;
+$tpf-border-color-deep-grey: #666666;
+$tpf-border-color-shallow-grey: #999999;
+$tpf-border-color-white-smoke: #F5F5F5;
+
+/* 内容边距 */
+$tpf-padding-size-md:10rpx;
+$tpf-padding-size-base:20rpx;
+$tpf-padding-size-lg:30rpx;
+$tpf-padding-size-hg:40rpx;
+
+/* 水平间距 */
+$tpf-spacing-row-mi: 8rpx;
+$tpf-spacing-row-sm:10rpx;
+$tpf-spacing-row-base:12rpx;
+$tpf-spacing-row-lg: 20rpx;
+
+/* 垂直间距 */
+$tpf-spacing-col-mi: 6rpx;
+$tpf-spacing-col-sm: 8rpx;
+$tpf-spacing-col-base:12rpx;
+$tpf-spacing-col-lg: 20rpx;
+$tpf-spacing-col-mx: 30rpx;
+
+/* 透明度 */
+$tpf-opacity-disabled: 0.3; 	// 组件禁用态的透明度
+
+/* 行为相关颜色 */
+$tpf-type-primary: #2979ff;
+$tpf-type-primary-light: #ecf5ff;
+$tpf-type-primary-disabled: #a0cfff;
+$tpf-type-primary-dark: #2b85e4;
+
+$tpf-type-warning: #ff9900;
+$tpf-type-warning-disabled: #fcbd71;
+$tpf-type-warning-dark: #f29100;
+$tpf-type-warning-light: #fdf6ec;
+
+$tpf-type-success: #19be6b;
+$tpf-type-success-disabled: #71d5a1;
+$tpf-type-success-dark: #18b566;
+$tpf-type-success-light: #dbf1e1;
+
+$tpf-type-error: #fa3534;
+$tpf-type-error-disabled: #fab6b6;
+$tpf-type-error-dark: #dd6161;
+$tpf-type-error-light: #fef0f0;
+
+$tpf-type-info: #909399;
+$tpf-type-info-disabled: #c8c9cc;
+$tpf-type-info-dark: #82848a;
+$tpf-type-info-light: #f4f4f5;
+
+/* 文章场景相关 */
+$tpf-post-color-title: #2C405A; // 文章标题颜色
+$tpf-post-font-size-title:40rpx;
+$tpf-post-color-subtitle: #555555; // 二级标题颜色
+$tpf-post-font-size-subtitle:36rpx;
+$tpf-post-color-paragraph: #3F536E; // 文章段落颜色
+$tpf-post-font-size-paragraph:32rpx;

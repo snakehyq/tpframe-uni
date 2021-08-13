@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/views/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/views/message/index",
+			"style": {
+				"navigationBarTitleText": "在线留言"
+			}
+		},
+		{
+			"path": "pages/views/connect/index",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/views/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"tabBar": {
+	    "color": "#333333",
+	    "selectedColor": "#1296db",
+	    "borderStyle": "black",
+	    "backgroundColor": "#f2f2f2",
+	    "list": [{
+	        "pagePath": "pages/views/home/index",
+	        "iconPath": "static/home.png",
+	        "selectedIconPath": "static/home-active.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/views/message/index",
+	        "iconPath": "static/message.png",
+	        "selectedIconPath": "static/message-active.png",
+	        "text": "消息"
+	    }, {
+	        "pagePath": "pages/views/connect/index",
+	        "iconPath": "static/connect.png",
+	        "selectedIconPath": "static/connect-active.png",
+	        "text": "联系我们"
+	    }, {
+	        "pagePath": "pages/views/user/index",
+	        "iconPath": "static/user.png",
+	        "selectedIconPath": "static/user-active.png",
+	        "text": "个人中心"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1296db",
+		"backgroundColor": "#F8F8F8"
+	}
+}

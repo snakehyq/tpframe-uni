@@ -1,0 +1,43 @@
+const news={
+	getNewsList(){
+		return [
+			{
+				thumb:"https://img.36krcdn.com/20200410/v2_9c3331af67e64994aa97a27fffb1a380_img_png?x-oss-process=image/resize,m_mfit,w_520,h_300/crop,w_520,h_300,g_center",
+				title:"为什么自动驾驶诉讼不断？",
+				source:"未来汽车日报",
+				comment_number:10,
+			},
+			{
+				thumb:"https://img.36krcdn.com/20200411/v2_16417a06088947debe0450950f8fc813_img_png",
+				title:"2020数字中国创新大赛-数字政府赛道21强出炉，四大赛题紧贴政府数字化发展需求？",
+				source:"36氪深度服务",
+				comment_number:30,
+			},
+			{
+				thumb:"https://img.36krcdn.com/20200410/v2_6905947498bc4ec0af228afed409f771_img_png?x-oss-process=image/resize,m_mfit,w_520,h_300/crop,w_520,h_300,g_center",
+				title:"地方政府救市哪家强？广州补贴上万元，广深杭新增指标超5万？",
+				source:"未来汽车日报",
+				comment_number:58,
+			},
+			{
+				thumb:"https://img.36krcdn.com/20200411/v2_da4c26244cbc494c8e0e5918518e866c_img_png",
+				title:"​抖音快手明星图鉴：哪个平台更适合明星“再就业”？",
+				source:"未来汽车日报",
+				comment_number:10,
+			},
+			{
+				thumb:"https://img.36krcdn.com/20200410/v2_86bbf8245f754be79f3386a82b385093_img_000",
+				title:"救命呼吸机缺口难补！一文扒开供应链真相？",
+				source:"智东西",
+				comment_number:125,
+			},
+			{
+				thumb:"https://img.36krcdn.com/20200411/v2_2204c6132432403184e43df22485545e_img_000?x-oss-process=image/resize,m_mfit,w_432,h_288/crop,w_432,h_288,g_center",
+				title:"瓜子坚果双增长，但洽洽并不能高枕无忧？",
+				source:"资本侦探",
+				comment_number:77,
+			}
+		]
+	}
+};
+export default news;

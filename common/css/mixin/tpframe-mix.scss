@@ -1,0 +1,41 @@
+/* nvue默认就是flex布局 */
+@mixin tpframe-flex($direction:row,$alignItems:center,$justifyContent:space-between,$flexWrap:wrap){
+	/* #ifndef APP-PLUS-NVUE */
+	display: flex;
+	/* #endif */
+	align-items: $alignItems;
+	flex-direction: $direction;
+	justify-content: $justifyContent;
+	flex-wrap: $flexWrap;
+}
+
+@mixin tpframe-border($width:3rpx,$style:solid,$color:#999){
+	border-width: $width;
+	border-style: $solid;
+	border-color: $color;
+}
+
+@mixin tpframe-padding($top:0rpx,$right:0rpx,$bottom:0rpx,$left:0rpx) {
+	padding-top: $top;
+	padding-right: $right;
+	padding-bottom: $bottom;
+	padding-left: $left;
+}
+
+@mixin tpframe-margin($top:0rpx,$right:0rpx,$bottom:0rpx,$left:0rpx) {
+	margin-top:$top;
+	margin-right: $right;
+	margin-bottom: $bottom;
+	margin-left: $left;
+}
+
+@mixin tpframe-container-size($width:750rpx,$height:0) {
+	width: $width;
+	@if $height==0 {
+		/* #ifndef APP-PLUS-NVUE */
+		height: auto;
+		/* #endif */
+	}@else{
+		height: $height;
+	}
+}

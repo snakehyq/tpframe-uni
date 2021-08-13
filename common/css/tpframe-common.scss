@@ -1,0 +1,30 @@
+// 把其它平台元素跟nvue元素设置一样的特性
+/* #ifndef APP-PLUS-NVUE */
+view,input,image,scroll-view,swiper,swiper-item,text,textarea,video{
+	position: relative;
+	box-sizing: border-box;
+}
+image{
+	display: inline-block;
+}
+/* #endif */
+
+@font-face {
+  font-family: 'tpf-iconfont';  /* project id 2355434 */
+  src: url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.eot');
+  src: url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2355434_q77jwdmovdd.svg#tpf-iconfont') format('svg');
+}
+
+.tpf-iconfont {
+  font-family: "tpf-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  /* #ifndef APP-NVUE */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* #endif */
+}
